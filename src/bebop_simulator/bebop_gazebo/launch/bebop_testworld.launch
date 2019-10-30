@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find bebop_gazebo)/worlds/cage_world.world"/>
+  </include>
+
+
+  <!-- Load key controller for bebop -->
+  <node name="key2drone" pkg="key2drone" type="key2drone" output="screen"/>
+
+  <!-- Spawn simulated quadrotor uav -->
+  <include file="$(find bebop_gazebo)/launch/spawn_bebop.launch" />
+
+</launch>
