@@ -1,0 +1,26 @@
+Keyboard Controller commands
+
+--- Bebop General ---
+T			Bebop Takeoff
+L			Bebop Land
+H			Bebop Hover
+
+
+--- Bebop movement---
+W-A-S-D 		Bebop Linear Movement (forward-left-backward-right)
+Q-E			Bebop Angular Movement (left-right)
+G-B			Bebop Vertical Movement (up-down)
+Up-arrow		Increase vertical speed
+Down-arrow		Decrease vertical speed
+Right-arrow		Increase linear speed
+Left-arrow		Decrease linear speed
+
+
+--- Camera control --- (not working in Sim)
+I-K			Camera Tilt (up-down)
+J-L			Camera Pan (left-right)
+O			Camera Reset Position
+
+
+--- General ---
+ESC			Exit Keyboard Controller
